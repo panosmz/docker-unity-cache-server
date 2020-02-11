@@ -48,6 +48,12 @@ Build with parameters.
 docker build --tag unity-cache-server:6.1.0 --build-arg CACHE_SERVER_VERSION=6.1.0 .
 ```
 
+To build armhf with parameters.
+
+```sh
+docker build -f Dockerfile.armhf --tag unity-cache-server:6.1.0 --build-arg CACHE_SERVER_VERSION=6.1.0 .
+```
+
 ## You wanna get old versions cache server image?
 
 Old cache server (enclosed Unity version 2017.1.0 - 2017.3.1) moved ["v5/" directory](v5)
